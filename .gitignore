@@ -1,0 +1,52 @@
+# ======================
+# Rust / Cargo (ALL crates)
+# ======================
+
+# Cargo build output (works for nested crates too)
+**/target/
+
+# Rustfmt backup files
+**/*.rs.bk
+
+# Cargo.lock
+# Ignore globally ONLY if this repo is library-heavy
+# If you have apps/binaries, REMOVE this line
+**/Cargo.lock
+
+# ======================
+# IDE / Editors
+# ======================
+
+# VS Code
+.vscode/
+
+# IntelliJ / CLion
+.idea/
+**/*.iml
+
+# Vim
+**/*.swp
+**/*.swo
+
+# ======================
+# OS files
+# ======================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Logs
+# ======================
+**/*.log
+
+# ======================
+# Environment / Secrets
+# ======================
+**/.env
+**/.env.*
